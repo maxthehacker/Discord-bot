@@ -6,9 +6,9 @@ import youtube_dl
 import random
 
 reddit = asyncpraw.Reddit(
-  client_id="1TUigD00O7EZEw",
-  client_secret="8UhNnSWrXe5-SQ8qPeSJ2A58cyyoNg",
-  user_agent="protobot",
+  client_id="put your client id here",
+  client_secret="put your client secret here",
+  user_agent="this can be anything",
 )
 
 description = ''' An example bot to showcase the discord.ext '''
@@ -113,4 +113,4 @@ async def disconnect(ctx):
   else:
     await ctx.send('**you are not in any channel!**')    
 
-bot.run('ODUxMzc3NDE3NTY2Mjg5OTgw.YL3ZAg.P7ml4VT7snA8mp0f-M1o09XyO50')
+bot.run('put your bot token here')
