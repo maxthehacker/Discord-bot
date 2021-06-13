@@ -1,0 +1,3 @@
+youtube-dl==2021.6.6
+discord.py==1.7.2
+asyncpraw==7.2.0
